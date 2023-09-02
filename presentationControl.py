@@ -66,8 +66,8 @@ def countFingers(image, hand_landmarks, handNo=0):
         #finger_tip_y = (landmarks[8].x)*width
         #finger_tip_x = (landmarks[8].y)*height
         
-        #finger_tip_x = (landmarks[8].x)*width
-        #finger_tip_y = (landmarks[8].y)*height
+        finger_tip_x = (landmarks[8].x)*width
+        finger_tip_y = (landmarks[8].y)*height
 
        
         
